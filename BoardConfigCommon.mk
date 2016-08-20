@@ -68,3 +68,6 @@ BOARD_HAL_STATIC_LIBRARIES := libdumpstate.grouper
 
 # Security
 BOARD_SEPOLICY_DIRS += device/asus/grouper/sepolicy
+
+# TWRP
+TW_THEME := portrait_hdpi
