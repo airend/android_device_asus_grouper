@@ -42,6 +42,9 @@ MALLOC_SVELTE := true
 # Use clang platform builds
 USE_CLANG_PLATFORM_BUILD := true
 
+# adb has root
+ADDITIONAL_DEFAULT_PROPERTIES += ro.secure=0
+
 # Kernel
 BOARD_KERNEL_CMDLINE := androidboot.hardware=$(TARGET_BOOTLOADER_BOARD_NAME)
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
