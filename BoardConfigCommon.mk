@@ -39,9 +39,6 @@ WITH_DEXPREOPT_BOOT_IMG_ONLY := true
 # Configure jemalloc for low-memory
 MALLOC_SVELTE := true
 
-# Use clang platform builds
-USE_CLANG_PLATFORM_BUILD := true
-
 # adb has root
 ADDITIONAL_DEFAULT_PROPERTIES += ro.secure=0
 
