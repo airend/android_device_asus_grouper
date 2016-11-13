@@ -36,6 +36,9 @@ BOARD_SYSTEMIMAGE_JOURNAL_SIZE := 0
 # Only pre-optimize the boot image
 WITH_DEXPREOPT_BOOT_IMG_ONLY := true
 
+# Configure jemalloc for low-memory
+MALLOC_SVELTE := true
+
 # adb has root
 ADDITIONAL_DEFAULT_PROPERTIES += ro.secure=0
 
