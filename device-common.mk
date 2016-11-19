@@ -24,6 +24,8 @@ PRODUCT_AAPT_CONFIG := normal large
 PRODUCT_AAPT_PREF_CONFIG := tvdpi
 # A list of dpis to select prebuilt apk, in precedence order.
 PRODUCT_AAPT_PREBUILT_DPI := hdpi
+TARGET_RECOVERY_DENSITY := \
+    $(PRODUCT_AAPT_PREBUILT_DPI)
 
 PRODUCT_PROPERTY_OVERRIDES := \
     wifi.interface=wlan0 \
