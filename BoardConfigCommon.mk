@@ -42,11 +42,6 @@ MALLOC_SVELTE := true
 # adb has root
 ADDITIONAL_DEFAULT_PROPERTIES += ro.secure=0
 
-# Graphics
-# cache opts 12x & 32x defaults
-MAX_EGL_CACHE_KEY_SIZE := 12*1024
-MAX_EGL_CACHE_SIZE := 2048*1024
-
 # Kernel
 BOARD_KERNEL_CMDLINE := androidboot.hardware=$(TARGET_BOOTLOADER_BOARD_NAME)
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
