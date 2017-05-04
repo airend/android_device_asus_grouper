@@ -25,4 +25,9 @@
     <!-- Value for Settings.Global.LOW_BATTERY_SOUND_TIMEOUT:
          Mute battery sounds on tablets after one hour with screen off -->
     <integer name="def_low_battery_sound_timeout">3600000</integer>
+
+    <!-- Nougat started enabling BT by default -->
+    <bool name="def_bluetooth_on">false</bool>
+    <!-- GApps Setup Wizard needs this on -->
+    <bool name="def_wifi_on">true</bool>
 </resources>
